@@ -1,0 +1,27 @@
+{
+  "name": "vendor_name/unveel.io-test-assignment",
+  "description": "description",
+  "minimum-stability": "stable",
+  "license": "proprietary",
+  "autoload": {
+    "psr-4": {
+      "Coff\\TestAssignment\\": "src/"
+    }
+  },
+  "authors": [
+    {
+      "name": "kkubanek",
+      "email": "email@example.com"
+    }
+  ],
+  "repositories": [
+    {
+      "type": "vcs",
+      "url": "https://github.com/coff/dashboard.git"
+    }
+  ],
+  "require": {
+    "casadatos/dashboard": "^0.0.2",
+    "phpunit/phpunit": "^9.5"
+  }
+}
